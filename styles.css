@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	line-height: 1.7em;
+	font-size: 1.4em;
+	background-image: url("https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'PT Sans', sans-serif;
+}
+
+	 
+h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+p{
+	text-align: center;
+}
+
+#survey-form{
+	border-radius: 10px;
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(232, 84, 84,0.8);
+	opacity: 0.8;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*#survey-form div{
+	margin-left: 28px;
+	margin-right: 27px;
+}*/
+
+
+#survey-form > div{
+	margin-top: 30px;
+}
+
+
+#name{
+	width: 97%;
+	height: 2em;
+	border-radius: 5px;
+}
+
+#email{
+	width: 97%;
+	height: 2em;
+	border-radius: 5px;
+}
+
+#number{
+	width: 97%;
+	height: 2em;
+	border-radius: 5px;
+}
+
+#dropdown{
+	width: 97%;
+	height: 2em;
+	border-radius: 5px;
+}
+
+textarea{
+	width: 97%;
+	border-radius: 5px;
+}
+
+#submit{
+	width: 97%;
+	height: 3em;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	background-color: #3b45b8;
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+
+
